@@ -4,10 +4,10 @@ import java.time.LocalDate;
 public class ToDo {
     private String nombre;
     private String descripcion;
-    private LocalDate fechaLimite; // LocalDate es la forma más sencilla 
+    private LocalDate fechaLimite;
     private boolean completado;
 
-    public ToDo() {} // Constructor vacío obligatorio de JavaBean 
+    public ToDo() {}
 
     public String getNombre() { return nombre; }
     public void setNombre(String nombre) { this.nombre = nombre; }

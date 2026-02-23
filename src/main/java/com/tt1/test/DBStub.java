@@ -3,8 +3,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DBStub {
-    private List<ToDo> tareas = new ArrayList<>(); // Colección para CRUD 
-    private List<String> agendaEmails = new ArrayList<>(); // Agenda de emails [cite: 35]
+    private List<ToDo> tareas = new ArrayList<>();
+    private List<String> agendaEmails = new ArrayList<>();
 
     public void crear(ToDo t) { throw new UnsupportedOperationException("Clase aún no implementada."); }
     public ToDo leer(String nombre) { throw new UnsupportedOperationException("Clase aún no implementada."); }
