@@ -10,6 +10,6 @@ public class DBStub {
     public ToDo leer(String nombre) { throw new UnsupportedOperationException("Clase aún no implementada."); }
     public void actualizar(ToDo t) { throw new UnsupportedOperationException("Clase aún no implementada."); }
     public void borrar(String nombre) { throw new UnsupportedOperationException("Clase aún no implementada."); }
-    public void añadirEmail(String email) { throw new UnsupportedOperationException("Clase aún no implementada."); }
+    public void anadirEmail(String email) { throw new UnsupportedOperationException("Clase aún no implementada."); }
     public List<String> obtenerEmails() { throw new UnsupportedOperationException("Clase aún no implementada."); }
 }
